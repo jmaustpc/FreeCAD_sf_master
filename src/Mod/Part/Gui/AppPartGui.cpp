@@ -50,6 +50,7 @@
 #include "ViewProviderTorusParametric.h"
 #include "ViewProviderRuledSurface.h"
 #include "ViewProviderPrism.h"
+#include "ViewProviderRegularPolygon.h"
 
 #include "DlgSettingsGeneral.h"
 #include "DlgSettingsObjectColor.h"
@@ -110,6 +111,7 @@ void PartGuiExport initPartGui()
     PartGui::ViewProviderPython         ::init();
     PartGui::ViewProviderBox            ::init();
     PartGui::ViewProviderPrism          ::init();
+    PartGui::ViewProviderRegularPolygon ::init();
     PartGui::ViewProviderImport         ::init();
     PartGui::ViewProviderCurveNet       ::init();
     PartGui::ViewProviderExtrusion      ::init();
